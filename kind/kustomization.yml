@@ -4,6 +4,6 @@ kind: Kustomization
 bases:
 - ../bases/argocd
 - ../bases/postgres-operator
-#- ../bases/argo-rollouts
-#resources:
-#- ./my-pg.yml
+- ../bases/argo-rollouts
+resources:
+- ./my-pg.yml
