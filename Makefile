@@ -1,6 +1,6 @@
 .PHONY: up
 up:
-	kind create cluster
+	kind create cluster --config kind.yml
 
 .PHONY: apply
 apply:
@@ -12,4 +12,4 @@ unapply:
 
 .PHONY: down
 down:
-	kind delete cluster	
+	kind delete cluster --name bootstrap

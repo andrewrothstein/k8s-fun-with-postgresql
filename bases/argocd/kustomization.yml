@@ -5,4 +5,4 @@ resources:
 - ./namespace.yml
 namespace: argocd
 bases:
-- https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml
+- https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/core-install.yaml
